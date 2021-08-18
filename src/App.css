@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
 }
 
 body {
@@ -7,4 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: 30px auto;
+    width: 350px;
 }

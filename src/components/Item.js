@@ -1,10 +1,6 @@
-import './Item.css'
-
-const Item = () => {
-    const name = "พักโรงแรม"
-    const amount = 5000
+const Item = ({title,amount}) => {
     return (
-        <li className = "item">{name} <span>-{amount}</span></li>
+        <li>{title} <span> {amount}</span></li>
     );
 }
 
